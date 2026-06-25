@@ -1,0 +1,16 @@
+{
+  "name": "XSI SOC Dashboard",
+  "short_name": "XSI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#10231d",
+  "theme_color": "#10231d",
+  "icons": [
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

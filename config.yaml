@@ -1,0 +1,32 @@
+database:
+  path: data/xsi.db
+redis:
+  url: ""
+logs:
+  path: backend/logs
+server:
+  host: ""
+  port: 8000
+  mode: development
+  heartbeat_timeout_seconds: 60
+  cors_origins: []
+device:
+  name: XSI-Controller
+security:
+  safe_mode: true
+  agent_token: ""
+  api_key: ""
+  jwt_secret: ""
+  token_rotation_days: 30
+  rate_limit_per_minute: 120
+  block_private_ips: false
+  min_prevention_score: 65
+  quarantine_dir: backend/quarantine
+downloads:
+  path: backend/downloads
+  current_version: "0.4.0"
+  latest_version: "0.4.0"
+  changelog:
+    - Added professional Android agent APK.
+    - Replaced legacy installation with Deployment Wizard.
+    - Switched to Inno Setup for Windows installer.

@@ -1,0 +1,30 @@
+database:
+  path: data/xsi.db
+logs:
+  path: backend/logs
+server:
+  host: 127.0.0.1
+  port: 8000
+  mode: development
+  heartbeat_timeout_seconds: 60
+  cors_origins:
+    - http://localhost:5173
+    - http://127.0.0.1:5173
+device:
+  name: XSI-Controller
+security:
+  safe_mode: true
+  agent_token: change-me-xsi-agent-token
+  api_key: change-me-xsi-api-key
+  jwt_secret: change-me-xsi-jwt-secret
+  token_rotation_days: 30
+  rate_limit_per_minute: 120
+  block_private_ips: false
+  min_prevention_score: 65
+  quarantine_dir: backend/quarantine
+downloads:
+  path: backend/downloads
+  current_version: 0.1.0
+  latest_version: 0.1.0
+  changelog:
+    - Initial unified XSI backend and SIEM frontend.

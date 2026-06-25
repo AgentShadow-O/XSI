@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment
+.env
+.env.*
+!*.env.example
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Build
+build/
+dist/
+windows/build/
+windows/dist/
+android/dist/
+
+# Logs
+logs/
+backend/logs/
+*.log
+
+# Runtime
+data/
+temp/
+quarantine/
+backend/quarantine/
+backend/downloads/
+
+# Database
+*.db
+*.sqlite
+*.db-wal
+*.db-shm
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-06-11T14:31:48.630890+00:00",
+  "source_root": "C:\\CLI\\Cybersecurity\\XSI",
+  "backup_dir": "C:\\CLI\\Cybersecurity\\XSI\\migration-backups\\phase2-current",
+  "database_counts": {
+    "devices": 1,
+    "events": 3550862,
+    "alerts": 3528076,
+    "processes": 1,
+    "network_activity": 1,
+    "actions": 2969,
+    "rules": 0,
+    "users": 0,
+    "settings": 1
+  },
+  "export_counts": {
+    "settings": 1,
+    "rules": 0,
+    "users": 0
+  },
+  "files": [
+    {
+      "path": "config/config.yaml",
+      "size": 690,
+      "sha256": "4de4a7d3d657e5a323ac6335c0975b555c40f6074981fecee5919fe0399d7844"
+    },
+    {
+      "path": "data/xsi.db",
+      "size": 1319206912,
+      "sha256": "a13d0ab689da5ce168e38e08c240ca7979d09cb842e411a4d593b84bc9105b3c"
+    },
+    {
+      "path": "exports/existing_rules_backup.json",
+      "size": 112,
+      "sha256": "b568671c19aa71c4d4f7ce66b8c653a56e79cb04aadb09ef700220132baeef3d"
+    },
+    {
+      "path": "exports/sqlite_schema_snapshot.json",
+      "size": 5963,
+      "sha256": "2f33bd1e9fd6c8b23062d76014b064d45500c0cad57e0492bd8611f8235a1f4b"
+    },
+    {
+      "path": "exports/user_settings_backup.json",
+      "size": 267,
+      "sha256": "1b0f456491e3ef9b75f3f1bada35fb948a51af195ffa5be351af43941f44a186"
+    },
+    {
+      "path": "exports/users_backup.json",
+      "size": 112,
+      "sha256": "fbce4ba7daa50a8ad7759f35bc8a7801d9ef476fdaa6fbbc2fd76bc46fd8cc0f"
+    },
+    {
+      "path": "restore_phase2_backup.ps1",
+      "size": 1573,
+      "sha256": "effaf6f080dae78e5885885ba74a6b673abc0c9e693d3a4c6a5720aa73d59657"
+    }
+  ]
+}
